@@ -5,7 +5,7 @@ import styles from '../styles/components/CountDown.module.css'
 let countDownTimeOut: NodeJS.Timeout;
 
 export function CountDown() {
-    const minut = 0.1;
+    const minut = 25;
     const [time, setTime] = useState(minut * 60);
     const [isActive, setIsActive] = useState(false);
     const [hasFinished, setHasFinished] = useState(false);
@@ -24,7 +24,7 @@ export function CountDown() {
         clearTimeout(countDownTimeOut); //para o timeout
         setHasFinished(true);
         setIsActive(false);
-        setTime(minut * 60);
+        //setTime(minut * 60);
     }
 
     useEffect(() => {
