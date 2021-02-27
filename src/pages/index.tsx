@@ -19,9 +19,11 @@ export default function Home(props: HomeProps) {
 
   return (
     <ChallengeProvider level={props.level} currentExperience={props.currentExperience} challengesCompleted={props.challengesCompleted}>
+
+
       <div className={styles.container}>
         <Head>
-          <title>Inicio | move.it</title>
+          <title>Inicio | Lets Move.It</title>
         </Head>
         <ExperienceBar />
         <CountDownProvider>
@@ -41,7 +43,6 @@ export default function Home(props: HomeProps) {
   )
 }
 
-//Onde o Next Surgiiu
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   //chamada API
