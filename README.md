@@ -1,6 +1,5 @@
 # 🤸🏼‍♂️ LetsMoveIt
 ### Project made in the 4th Next Level Week by Rocketseat
-Next.js + React.js + Typescript project
 #### Getting Started in MacOS 
 
 ##### Install Homebrew
